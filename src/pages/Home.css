@@ -1,9 +1,4 @@
-.home {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
+/* Home.css */
 .home h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -12,6 +7,15 @@
 
 .home p {
   color: #4b5563; /* gris medio */
+}
+
+/* 🌙 Variante dark mode */
+.dark .home h1 {
+  color: #f9fafb; /* casi blanco */
+}
+
+.dark .home p {
+  color: #d1d5db; /* gris claro */
 }
 
 /* Grid de tarjetas */
@@ -34,6 +38,11 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* 🌙 Variante dark mode */
+.dark .card {
+  background: #1f2937; /* gris oscuro */
+}
+
 .card h2 {
   font-size: 1.25rem;
   font-weight: 600;
@@ -42,4 +51,8 @@
 
 .card p {
   color: #6b7280; /* gris más claro */
+}
+
+.dark .card p {
+  color: #9ca3af; /* gris claro en dark */
 }
